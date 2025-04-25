@@ -8,16 +8,52 @@
     padding: 0;
 }
 ul,li {
-    background-color: rgb(135, 97, 196);
+    background-color: rgb(175, 167, 167);
     list-style: none;
-    display:inline ;
-    margin:8px;
+    display:inline;
+    margin:48px;
     padding: 13px;
     width: 30px;
     height:5vh;
     position: sticky;
     
 }
-.input{
+ul{
+    width = 220vh;
+}
+input{
     margin: 30px;
 }
+.nav{
+    margin:30px ;
+     
+    
+}
+.top {
+    width: 220vh;
+    height: ;
+    background-image: url('background.jpg');
+    background-size: cover;       
+    background-position: center;  
+    
+  }
+  .middle{
+    width: 220vh;
+    height: 100vh;
+    background-image: url('background2.jpg');
+    background-size: cover;       
+    background-position: center;  
+  }
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('profile.png');
+    background-size: cover;
+    background-position: right;
+    cursor: pointer;
+    display: inline-block;
+    margin: 60px top;
+    
+    
+  }
